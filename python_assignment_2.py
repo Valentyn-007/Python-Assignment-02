@@ -30,6 +30,7 @@ while number <= 30:
     if (number % 2 != 0):
         print(f"{number} is an odd number in this while loop")
     number += 1
+print("======================================")
 # Question 3: Ahmed, an EiT Fellow, has been given an amount of GHC 50,000 for his capstone project.
 # 25% of this amount was spent on marketing,
 # 50% was spent on other operational expenses,
@@ -39,7 +40,7 @@ while number <= 30:
 # Write a python program to prepare his financial statement
 # Your program should calculate the number of customers he can acquire with the budget allocated
 print("Answer to question 3:")
-print(f"{Fore.RED}Mr Ahmed's Financial Statement: October 1 - October 31 2022")
+print(f"{Fore.RED}Mr Ahmed's Financial Statement (October 1 - October 31 2022)")
 capstone_stipend = 50000.00
 #
 marketing_expenditure = 0.25 * capstone_stipend
@@ -80,4 +81,4 @@ print(f"{Back.RED}Total Customer Aquisition Expenses: GHC {cac}")
 print("  Unit customer acquisition cost : GHC 5.00")
 print(f"  Total Number of customers Acquired : {can_aquire_customers}")
 print("======================================")
-print(f"Balance after Expenses = {balance}")
+print(f"{Back.RED}Balance after Expenses = GHC {balance}")
