@@ -5,7 +5,7 @@ colorama.init(autoreset=True)
 
 # Question 1. With a for & while loop, print even numbers from 1 - 30.
 # For loop
-print("Answer to question 1:")
+print("Answer to question 1: \n")
 for x in range(1, 32):
     if (x % 2 == 0):
         print(f"{Fore.GREEN} {x} is an even number in this \'for loop\'")
@@ -19,7 +19,8 @@ while number <= 30:
 
 # Question 2. With a for & while loop, print odd numbers from 1 - 30.
 # For Loop
-print("Answer to question 2:")
+print("====================================== \n")
+print("Answer to question 2: \n")
 for x in range(1, 30):
     if (x % 2 != 0):
         print(f" {Fore.GREEN} {x} is an odd number in this \'for loop\'")
@@ -39,9 +40,10 @@ print("======================================")
 # Task:
 # Write a python program to prepare his financial statement
 # Your program should calculate the number of customers he can acquire with the budget allocated
-print("Answer to question 3:")
+print("Answer to question 3: \n")
 print(f"{Fore.RED}Mr Ahmed's Financial Statement (October 1 - October 31 2022)")
-capstone_stipend = 50000.00
+stipend = input("Enter Capstone Stipend: ")
+capstone_stipend = int(stipend)
 #
 marketing_expenditure = 0.25 * capstone_stipend
 fb_ads = 0.1*capstone_stipend
